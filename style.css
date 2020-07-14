@@ -1,0 +1,29 @@
+body {
+  background: lightblue;
+}
+
+#canvas {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+span {
+  background: red;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.available span {
+  background: green;
+}
+
+.nearby span:after {
+  content: 'nearby';
+  margin-left: 10px;
+}
